@@ -24,7 +24,7 @@ public class InventorySeviceApplication {
 
 			Inventory inventory1 = new Inventory();
 			inventory1.setSkuCode("TV Sony KTU-10");
-			inventory1.setQuantity(330);
+			inventory1.setQuantity(0);
 
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory1);
